@@ -1,0 +1,448 @@
+html,body{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container  img{
+    height: 15%;
+    width: 15%;
+}
+nav
+{
+    background: transparent;
+    z-index: 1;
+    height: 80px;
+}
+
+nav .container ul li{
+    /* color: rgb(43, 10, 10); */
+    font-size: 20px;
+}
+nav .navbar-nav li a{
+    color: rgb(32, 17, 17) !important;
+    }
+
+#particles-js
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Images/backgrnd.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    max-height:100%;
+    overflow: hidden;
+    /* top: 0; */
+} 
+#particles-js .banner img{
+    max-height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: 2s;
+}
+#particles-js .banner img:hover{
+    transform: scale(1.2);
+}
+
+#particles-js h1
+{
+    font-size: 40px;
+    color: white;    
+}
+#particles-js h2{
+    font-size: 30px;
+    color: turquoise;
+    margin-bottom: 20px;
+}
+
+#particles-js .btns
+{
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 0px 20px;
+    margin-bottom:10%;
+    /* margin-bottom: 106px; */
+}
+canvas
+{
+        display: block;
+        position: absolute;
+        height: 400px !important;  
+        top:0;  
+}
+.banner
+{
+    height:400px;
+}
+.about_part
+{
+    padding-top: 100px;
+    background-color: #e6e6e6;
+}
+.about_part .row 
+{
+    margin-top: 350px;
+}
+.about_part .next
+{
+    margin-top: 10%;
+}
+.about_part .row img{
+    height: 80%;
+    width: 80%;
+}
+.about_part .icons 
+{
+    margin-top: 2%; 
+    margin-bottom: 10%;
+}
+.Abilities_part .container .row .col-12
+{
+    margin-bottom: 80px;
+}
+.Abilities_part .row .HCB
+{
+    display: flex;
+    max-width: 600px;
+}
+.Abilities_part .row .RCB
+{
+    display: flex;
+    max-width: 600px;
+}
+.Abilities_part .row .RCB p
+{
+    border: 1px solid rgb(38, 88, 161);
+    padding: 0px 28px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.Abilities_part .row .HCB p
+{
+   border: 1px solid rgb(38, 88, 161);
+   padding: 0px 17px;
+   margin-right: 20px;
+   border-radius: 5px;
+   margin-top: 8px;
+}
+
+.Abilities_part .row .progress
+{
+    border-radius: 10px;
+}
+.Abilities_part .row .progress .progress-bar
+{
+    border-radius: 5px;
+} 
+.Abilities_part .row .Element
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Abilities_part .row .Element .html
+{
+    margin-top: 0px;
+}
+.abilities .row .progress
+{
+    border-radius: 10px;
+}
+.abilities .row .progress .progress-bar
+{
+    border-radius: 5px;
+}
+/* ExtraPart start */
+.extra
+{
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(204, 199, 199);
+}
+/* Extrapart End */
+/* Experience start */
+.experience
+{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Images/backgrnd.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.experience .row
+{
+    display: flex;
+    padding:50px 0;
+    max-width: 100%;
+
+}
+.experience  #skills{
+    color: rgb(26, 6, 6);
+    font-size: 40px;
+    padding-top: 40px;
+    z-index: 1;
+}
+.experience .row .col-12 img{
+    margin-bottom: 20px;
+    height: 50px;
+    width: 80px;
+}
+.experience .row .col-12 p{
+    font-size: 20px;
+    color: white;
+}
+.experience .row .col-12 img
+{
+   font-size: 50px;
+   background-color: rgb(96, 139, 46);
+}
+.service h2{
+    font-size: 40px;
+}
+
+.service .container-fluid .row
+{
+       padding-top: 40px;
+       padding-left: 80px;
+       display: flex;
+       padding-bottom: 80px;
+}
+.service .container-fluid .row .row{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+    width: 400px;
+    
+}
+.service .container-fluid .row .row .sptag
+{
+    padding-left: 20px;
+}
+/* Portfolio start */
+.portfolio
+{
+    /* height:75rem; */
+    background-color: #ccc7c7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+}
+.portfolio .container
+{
+   padding-top: 5%;
+   padding-bottom: 6%;
+   
+}
+.portfolio .container h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.portfolio .box
+{
+    position: relative;
+    height: 450px;
+    background-color: royalblue;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.portfolio .box .image-box
+{
+    position: relative;
+    overflow: hidden;
+   
+}
+.portfolio .box .image-box img{
+    transition: transform 2s;
+    height: 450px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.portfolio .box:hover .image-box img
+{
+    transform: scale(1.2);
+}
+.portfolio .box  .details
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgb(198, 206, 231);
+    opacity: .8;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.portfolio .box:hover  .details
+{
+    transform: scaleX(1);
+}
+.portfolio .box  .details .content
+{
+    position: absolute;
+    top: 20%;
+    transform: translateY(-20%);
+}
+.portfolio .box  .details .content h6
+{
+    padding-left: 20px;
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+.portfolio .box  .details .content h5
+{
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: hsl(258, 84%, 44%);
+}
+/* .portfolio .box .image-box #secondimage{
+    height: 460px;
+}
+.portfolio .box .image-box #fiveimage{
+    height: 455px;
+   
+} */
+/* Portfolio end */
+
+.latestnews .row .card img{
+    height: 200px;
+}
+.latestnews .container
+{
+    padding-top: 2%;
+   
+}
+.latestnews h1
+{
+font-size: 40px;
+padding-top: 80px;
+padding-bottom: 2%;
+}
+.latestnews .row .card .card-body .btn
+{
+    font-size: 20px;
+    color: rgb(114, 35, 206);
+}
+.latestnews .row .card img
+{
+    transition: 1s;
+}
+.latestnews .row .card img:hover
+{
+    transform: scaleY(1.2);
+}
+ 
+/*Contact Start */
+.Contact
+{
+    background-color: #ccc7c7;
+    margin-top: 100px;
+}
+.Contact .container-fluid .row .col-12
+{
+    /* margin-left:20px; */
+}
+.Contact h1
+{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.Contact form .formin input
+{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.Contact form .formin input .name
+{
+    margin: 5px;
+}
+.Contact form #textdiv input
+{
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 99%;
+    margin-left: 10px;
+}
+.Contact form #textdiv textarea
+{
+    height: 140px;
+    width: 99%;
+    margin-left: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.Contact form button
+{
+    border: 1px solid green;
+    border-radius: 3px;
+    color: gray;
+    margin-left: 40%;
+}
+.Contact form #righttext .areacontent
+{
+    height:90px;
+    margin-bottom: 8px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px 30px;
+}
+/* Contact End */
+/* Footer Start */
+.footer #lastdive
+{
+    height: 80px;
+    background-color: #131a22;
+}
+.footer #lastdive p{
+   color: #ffffff;
+   padding-top: 30px;
+}
+.up #Topbutton
+{
+	position: absolute;
+	width: 3rem;
+	height: 3rem;
+	background-color:#573194;
+    right:2rem;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    margin-top: 15px;
+	display: flex;
+	animation: pulse 2s infinite;
+    cursor: pointer;
+}
+.up #Topbutton i
+{
+	color: #cacad3;
+	font-size: 2rem;
+	margin: auto;
+}
+/* Footer End */
+@keyframes pulse
+{
+	0%
+	{
+	 box-shadow: 0 0 0 0 rgba(253,87,191,0.99);
+	}
+	70%
+	{
+		 box-shadow: 0 0 0 2rem rgba(253,87,191,0);
+	}
+	100%
+	{
+		 box-shadow: 0 0 0 0 rgba(253,87,191,0);
+	}
+
+}
